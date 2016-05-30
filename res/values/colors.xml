@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="grey"> #ebebeb</drawable>
+    <drawable name="black"> #000000</drawable>
+    <drawable name="darkgrey"> #C0C0C0</drawable>
+    <drawable name="white"> #FFFFFF</drawable>
+     <drawable name="darkyellow"> #FFCC33</drawable>
+    <drawable name="gray">#DBDBDB</drawable>
+    <drawable name="green">#00FF00</drawable>
+    <drawable name="lightgreen">#00FFFF</drawable>
+    <drawable name="lightblue">#4F94CD</drawable>
+    <drawable name="blue">#191970</drawable>
+    <drawable name="yellow">#FFFF00</drawable>
+    <drawable name="lightyellow">#FFFF00FF</drawable>
+    <drawable name="pink">#FF007F</drawable>
+    <drawable name="red">#FF4500</drawable>
+    <drawable name="transparent">#00000000</drawable>
+     
+
+</resources>

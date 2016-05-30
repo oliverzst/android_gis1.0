@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/uploadway"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="@drawable/text"
+            android:gravity="center"
+            android:text="服务器上传"
+            android:textSize="38px" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/btn_dropdown"
+            android:gravity="center"
+            android:textSize="38px" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/serveraddress"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="@drawable/text"
+            android:gravity="center"
+            android:text="服务器地址"
+            android:textSize="38px" />
+
+       <EditText 
+           android:id="@+id/ipaddress1"
+           android:gravity="center"
+           android:layout_alignParentLeft="true"
+           android:layout_width="120px"
+           android:layout_height="wrap_content"
+           android:maxLength="3"
+           android:textSize="18sp"
+           android:text = "192"
+           android:inputType="numberDecimal"
+           android:singleLine="true" />
+       <TextView
+           android:id="@+id/test2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="18sp"
+           android:layout_toRightOf="@+id/test1"
+           android:gravity="center"
+           android:text="." />
+       <EditText android:id="@+id/ipaddress2"
+           android:gravity="center"
+           android:layout_toRightOf="@+id/test2"
+           android:layout_width="120px"
+           android:layout_height="wrap_content"
+           android:maxLength="3"
+           android:textSize="18sp"
+           android:text = "168"
+           android:inputType="numberDecimal"
+           android:singleLine="true" />
+       <TextView
+           android:id="@+id/test4"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_toRightOf="@+id/test3"
+           android:textSize="18sp"
+           android:gravity="center"
+           android:text="." />
+       <EditText android:id="@+id/ipaddress3"
+           android:gravity="center"
+           android:layout_toRightOf="@+id/test4"
+           android:layout_width="120px"
+           android:layout_height="wrap_content"
+           android:maxLength="3"
+           android:textSize="18sp"
+           android:text = "23"
+           android:inputType="numberDecimal"
+           android:singleLine="true" />
+       <TextView
+           android:id="@+id/test6"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_toRightOf="@+id/test5"
+           android:textSize="18sp"
+           android:gravity="center"
+           android:text="." />
+       <EditText android:id="@+id/ipaddress4"
+           android:gravity="center"
+           android:layout_toRightOf="@+id/test6"
+           android:layout_alignParentRight="true"
+           android:layout_width="120px"
+           android:layout_height="wrap_content"
+           android:maxLength="3"
+           android:textSize="18sp"
+           android:text = "1"
+           android:inputType="numberDecimal"
+           android:singleLine="true" />        
+        
+    </LinearLayout>
+    
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="上传"
+        android:textSize="68px" 
+        android:background="@drawable/button" />
+    
+    <Button
+        android:id="@+id/download"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:text="下载"
+        android:layout_marginTop="10px"
+        android:textSize="68px" />
+
+</LinearLayout>

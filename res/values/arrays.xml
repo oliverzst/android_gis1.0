@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="BaudRate_Var">
+        <item >9600</item>
+        <item >19200</item>
+        <item >38400</item>
+        <item >57600</item>
+        <item >115200</item>
+    </string-array>
+    
+    <string-array name="UpLoad_Var">
+        <item >手动</item>
+        <item >自动</item>
+    </string-array>
+    
+    <string-array name="Color_Var">
+        <item >绿色</item>
+        <item >青色</item>
+        <item >天蓝</item>
+        <item >蓝色</item>
+        <item >黄色</item>
+        <item >品红</item>
+        <item >玫瑰</item>
+        <item >红色</item>
+        <item >橙色</item>
+        <item >紫色</item>      
+    </string-array>
+    
+</resources>

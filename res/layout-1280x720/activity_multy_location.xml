@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?><FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   <com.amap.api.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    </com.amap.api.maps.MapView>  
+   
+    <ImageView
+           android:id="@+id/imageView1"
+           android:layout_width="24dp"
+           android:layout_height="24dp"
+           android:src="@drawable/star" 
+           android:layout_marginLeft="10dp"
+           android:layout_marginTop="60dp"
+           android:layout_gravity="top"
+           android:visibility="visible"/>
+   
+   <view
+            android:id="@+id/colorpanel"
+            android:layout_width="80dp"
+            android:layout_height="145dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="60dp"
+            android:background="#10000000"
+            android:visibility="visible"
+            class="LinearLayout" 
+            />
+   
+   <TextView
+            android:id="@+id/startextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="68dp"
+            android:text="切网标识"
+            android:textSize="18px" 
+            android:layout_gravity="top"
+            />
+        
+        <view
+            android:id="@+id/greenpanel"
+            android:layout_width="25dp"
+            android:layout_height="10dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="85dp"
+            android:background="@drawable/green"
+            android:visibility="visible" 
+            class="LinearLayout" />
+        
+        <TextView
+            android:id="@+id/greenpaneltextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="85dp"
+            android:text=">= -60dB"
+            android:textSize="16px" 
+            android:layout_gravity="top"
+            />
+        
+        <view
+            android:id="@+id/lightgreenpanel"
+            android:layout_width="25dp"
+            android:layout_height="10dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/lightgreen" 
+            class="LinearLayout" />
+            
+        <TextView
+            android:id="@+id/lightgreenpaneltextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/transparent"
+            android:text="-60~-70"
+            android:textSize="16px" />
+        
+        <view
+            android:id="@+id/lightbluepanel"
+            android:layout_width="25dp"
+            android:layout_height="10dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="115dp"
+            android:background="@drawable/lightblue" 
+            class="LinearLayout" />
+        
+        <TextView
+            android:id="@+id/lightbluepaneltextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="115dp"
+            android:text="-70~-80"
+            android:textSize="16px" 
+            android:layout_gravity="top"
+            />
+        
+        <view
+            android:id="@+id/bluepanel"
+            android:layout_width="25dp"
+            android:layout_height="10dp" 
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/blue"
+            android:layout_gravity="top"
+            class="LinearLayout" 
+            />
+        
+        <TextView
+            android:id="@+id/bluepaneltextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="130dp"
+            android:text="-80~-90"
+            android:textSize="16px"
+            android:layout_gravity="top" 
+            />
+        
+        <view
+            android:id="@+id/yellowpanel"
+            android:layout_width="25dp"
+            android:layout_height="10dp" 
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="145dp"
+            android:background="@drawable/yellow"
+            android:layout_gravity="top"
+            class="LinearLayout" 
+            />
+        
+        <TextView
+            android:id="@+id/yellowpaneltextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="145dp"
+            android:text="-90~-100"
+            android:textSize="16px"
+            android:layout_gravity="top" 
+            />
+        
+        <view
+            android:id="@+id/lightyellowpanel"
+            android:layout_width="25dp"
+            android:layout_height="10dp" 
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="160dp"
+            android:background="@drawable/lightyellow"
+            android:layout_gravity="top"
+            class="LinearLayout" 
+            />
+        
+        <TextView
+            android:id="@+id/lightyellowpaneltextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="160dp"
+            android:text="-100~-110"
+            android:textSize="16px" 
+            android:layout_gravity="top"
+            />
+        
+        <view
+            android:id="@+id/pinkpanel"
+            android:layout_width="25dp"
+            android:layout_height="10dp" 
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="175dp"
+            android:background="@drawable/pink"
+            android:layout_gravity="top"
+            class="LinearLayout" 
+            />
+        
+        <TextView
+            android:id="@+id/pinkpaneltextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="175dp"
+            android:text="-110~-120"
+            android:textSize="16px" 
+            android:layout_gravity="top"
+            />
+        
+        <view
+            android:id="@+id/redpanel"
+            android:layout_width="25dp"
+            android:layout_height="10dp" 
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/red"
+            android:layout_gravity="top"
+            class="LinearLayout" 
+            />
+        
+        <TextView
+            android:id="@+id/redpaneltextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="190dp"
+            android:text="-120dB~"
+            android:textSize="16px" 
+            android:layout_gravity="top"
+            />
+    
+    <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginLeft="310dp"
+            android:layout_marginTop="380dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/mark" />
+
+    <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginLeft="310dp"
+            android:layout_marginTop="450dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/broom" />
+    
+    <RadioGroup
+        android:id="@+id/gps_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="6dp"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/gps_locate_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/gpslocate"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/gps_cover_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gpscover"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/gps_topology_button"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/gpstopology"
+            android:textColor="@android:color/black" />
+
+    </RadioGroup>
+
+</FrameLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/colorset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:background="@drawable/text"
+        android:gravity="center"
+        android:text="颜色配置"
+        android:textSize="52px" />
+    
+    <TextView
+        android:id="@+id/color60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="60dp"
+        android:text=">=-60dB:"
+        android:textSize="38px" />
+    
+    <Spinner
+            android:id="@+id/color60spinner"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="46dp"
+            android:textSize="38px" />
+
+    
+    <TextView
+        android:id="@+id/color70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="120dp"
+        android:text="-60~-70:"
+        android:textSize="38px" />
+    
+    <Spinner
+        android:id="@+id/color70button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="106dp"
+        />
+    
+    <TextView
+        android:id="@+id/color80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="180dp"
+        android:text="-70~-80:"
+        android:textSize="38px" />
+    
+    <Spinner
+        android:id="@+id/color80button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="166dp"
+        android:text="" 
+        />
+    
+    <TextView
+        android:id="@+id/color90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="240dp"
+        android:text="-80~-90:"
+        android:textSize="38px" />
+    
+    <Spinner
+        android:id="@+id/color90button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="226dp"
+        android:text="" 
+        />
+    
+    <TextView
+        android:id="@+id/color100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="300dp"
+        android:text="-90~-100:"
+        android:textSize="38px" />
+    
+    <Spinner
+        android:id="@+id/color100button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="286dp"
+        android:text="" 
+        />
+    
+    <TextView
+        android:id="@+id/color110"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="360dp"
+        android:text="-100~-110:"
+        android:textSize="38px" />
+    
+    <Spinner
+        android:id="@+id/color110button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="346dp"
+        android:text="" 
+        />
+    
+    <TextView
+        android:id="@+id/color120"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="420dp"
+        android:text="-110~-120:"
+        android:textSize="38px" />
+    
+    <Spinner
+        android:id="@+id/color120button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="406dp"
+        android:text="" 
+        />
+    
+    <TextView
+        android:id="@+id/color130"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="480dp"
+        android:text="-120~:"
+        android:textSize="38px" />
+    
+    <Spinner
+        android:id="@+id/color130button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="466dp"
+        android:text=""
+         />
+
+
+
+</FrameLayout>

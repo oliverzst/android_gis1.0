@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PDT无线覆盖软件手机端</string>
+    <string name="action_settings">Settings</string>
+    <string name="location_title">定位</string>
+    <string name="location_mulity_method">混合定位（GPS+网络）</string>
+    <string name="setting">配置</string>
+    <string name="ok">登录成功</string>
+    <string name="error">登录失败</string>
+    <string name="setview">显示配置</string>
+    <string name="setserver">服务器配置</string>
+    <string name="setcom">串口配置</string>
+    <string name="offlinemap">离线地图</string>
+    <string name="btn_color_picker">Color Picker</string>
+    <string name="login_username_hint">登录帐号</string>
+    <string name="PL2303HXD_Set_BaudRate">波特率</string>
+    <string name="PL2303HXD_OpenCOMPort">打开</string>
+    <string name="PL2303HXD_WriteData">写入</string>
+    <string name="PL2303HXD_ReadData">读取</string>
+    <string name="PL2303HXD_StartThread">开始</string>
+    <string name="PL2303HXD_StopThread">停止</string>
+    <string name="PL2303HXD_LoopBack">LoopBack</string>
+    <string name="PL2303HXD_SetVIDPID">Connecting New VID PID</string>
+    
+    <string name="location_latlng">"坐      标："</string>
+    <string name="location_accurancy">"精      度："</string>
+    <string name="location_method">定位方式：</string>
+    <string name="location_time">定位时间：</string>
+    <string name="location_description">位置描述：</string>
+    <string name="location_country">国&#160;&#160;&#160;&#160;&#160;&#160;家 ：</string>
+    <string name="location_province">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;省 ：</string>
+    <string name="location_city">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;市   ：</string>
+    <string name="location_county">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;区 ：</string>
+    <string name="location_road">街&#160;&#160;&#160;&#160;&#160;&#160;道   ：</string>
+    <string name="location_poi">POI名称 ：</string>
+    <string name="location_city_code">城市编码：</string>
+    <string name="location_area_code">区域编码：</string>
+    
+     <string name="gpscover">覆盖</string>
+    <string name="gpslocate">定位</string>
+    <string name="gpstopology">拓扑</string>
+    <string name="location_des_open_text">是否打开位置信息描述：</string>
+    <string name="yes">是</string>
+     <string name="no">否</string>
+     <string name="geofence_des">点击地图，以点击点为中心建立地理围栏，再次点击地图修改地理围栏位置</string>
+    
+</resources>
